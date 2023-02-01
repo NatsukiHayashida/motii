@@ -24,6 +24,7 @@ header {
 }
 
 h2 {
+  font-weight: 400;
   color: #a0b134;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -79,6 +80,7 @@ li:hover {
   color: rgb(0, 0, 0);
   border: 3px solid;
   border-color: black;
+  transition: color 0.3 ease-in;
 }
 
 i > a:hover {
@@ -126,3 +128,13 @@ h3 {
 .PaintWorks {
   color: #ffff;
 }
+
+.addres {
+  margin-top: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
