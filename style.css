@@ -2,8 +2,8 @@ body {
   position: relative;
   width: auto;
   height: auto;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   background: #286e81;
 }
 
@@ -23,11 +23,15 @@ header {
   align-items: center;
 }
 
+header > img {
+  width: 85%;
+  height: 85%;
+}
+
 h2 {
   font-weight: 400;
   color: #a0b134;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin: 0;
 }
 
 ul {
@@ -37,15 +41,14 @@ ul {
   width: auto;
   align-items: center;
   text-align: center;
-  padding: 8px 56px 8px 56px;
+  padding: 8px 56px;
 }
 
 ul > li {
   display: flex;
-  border: 2px solid #ffff;
+  border: 2px solid #fff;
   background-color: #286e81;
   width: 264px;
-  /* width: auto; */
   height: 64px;
   border-radius: 5px;
   margin: 16px auto;
@@ -65,27 +68,24 @@ li > i {
 i > a {
   font-size: 24px;
   text-decoration: none;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px 0;
   margin-left: 32px;
-  /* margin-right: 32px; */
   font-family: "SF Pro Display";
   font-style: normal;
-  /* font-weight: 400; */
-  color: #ffff;
+  color: #fff;
 }
 
 li:hover {
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: black;
   border: 3px solid;
   border-color: black;
-  transition: color 0.3 ease-in;
+  transition: color 0.3s ease-in;
 }
 
 i > a:hover {
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 span {
@@ -110,7 +110,7 @@ h3 {
 }
 
 .SignPaint {
-  color: #ffff;
+  color: #fff;
 }
 
 .HandCraftedSign {
@@ -118,7 +118,7 @@ h3 {
 }
 
 .GoldLeaf {
-  color: #ffff;
+  color: #fff;
 }
 
 .DesignWorks {
@@ -126,15 +126,10 @@ h3 {
 }
 
 .PaintWorks {
-  color: #ffff;
+  color: #fff;
 }
 
 .addres {
   margin-top: 16px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-
-
