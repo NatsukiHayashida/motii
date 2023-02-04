@@ -152,12 +152,12 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans Display", "Noto Sans JP", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
 header {
-  margin-top: 16px;
+  margin-top: 8px;
   margin-bottom: 8px;
   text-align: center;
   display: flex;
@@ -172,6 +172,7 @@ header > img {
 
 h2 {
   font-weight: 400;
+  font-family: "SF Pro";
   color: #a0b134;
   margin: 0;
 }
@@ -218,7 +219,7 @@ a {
 
 span {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   margin: auto;
 }
 
