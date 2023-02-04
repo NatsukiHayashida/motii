@@ -187,7 +187,7 @@ ul {
 li {
   width: fit-content;
   margin: auto;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   list-style: none;
   border: 2px solid #fff;
   width: 272px;
@@ -224,7 +224,7 @@ span {
 
 .kinds {
   display: block;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 
 h3 {
