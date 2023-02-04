@@ -114,26 +114,6 @@ h3 {
   letter-spacing: -0.01em;
 }
 
-.SignPaint {
-  color: #fff;
-}
-
-.HandCraftedSign {
-  color: #dadada;
-}
-
-.GoldLeaf {
-  color: #fff;
-}
-
-.DesignWorks {
-  color: #dadada;
-}
-
-.PaintWorks {
-  color: #fff;
-}
-
 .addres {
   margin-top: 16px;
   text-align: center;
@@ -218,9 +198,19 @@ a {
 }
 
 span {
+  font-family: "SF Pro Display";
   font-size: 24px;
   font-weight: 500;
   margin: auto;
+}
+
+li:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #66afc3;
+  border: 3px solid;
+  border-color: black;
+  transition: color 0.3s ease-in;
 }
 
 .kinds {
